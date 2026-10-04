@@ -20,6 +20,7 @@ I used the Custom setup option instead of Typical so I could see and choose ever
 The I/O controller and disk type screens were left on VMware's recommended defaults, since those are already matched to Windows 10.
 
 ![Final VM settings summary before creation](screenshots/01-vm-summary.png)
+
 *The summary screen confirming 60 GB disk, 6000 MB memory, NAT, and 2 CPU cores.*
 
 ## Installation
@@ -33,6 +34,7 @@ I went with Easy Install. In a real job, IT teams deploy many machines at once, 
 **VMware Tools.** It installed automatically during the build. I checked it in Apps & features, where it shows up as VMware Tools from Broadcom Inc. VMware Tools improves things like display resizing and mouse movement between the host and the VM.
 
 ![VMware Tools listed in Apps and features](screenshots/04-vmware-tools-installed.png)
+
 *VMware Tools showing as installed.*
 
 **Standard user account.** I created a second local account called user1 and confirmed it is a Standard user, not an Administrator. Standard accounts can run programs and work with files, but they cannot install software or change system-wide settings. This follows the principle of least privilege. If someone runs malware on a Standard account, the damage is limited compared to an admin account.
