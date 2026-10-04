@@ -40,11 +40,13 @@ I went with Easy Install. In a real job, IT teams deploy many machines at once, 
 **Standard user account.** I created a second local account called user1 and confirmed it is a Standard user, not an Administrator. Standard accounts can run programs and work with files, but they cannot install software or change system-wide settings. This follows the principle of least privilege. If someone runs malware on a Standard account, the damage is limited compared to an admin account.
 
 ![user1 local account created](screenshots/05-standard-user-account.png)
+
 *The user1 local account under Family & other people.*
 
 **Windows Update.** I ran Windows Update and it reported the device was up to date. This also confirmed that my NAT network connection works, since the check has to reach Microsoft's servers over the internet.
 
 ![Windows Update showing up to date](screenshots/06-windows-update.png)
+
 *Windows Update confirming the device is up to date.*
 
 ## What I Learned
