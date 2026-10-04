@@ -17,7 +17,6 @@ I used the Custom setup option instead of Typical so I could see and choose ever
 | Disk     | 60 GB, single file    | I first thought 20 GB would work, but Windows alone needs about 20 to 32 GB. 60 GB leaves space for updates and apps in the later phases. A single file is faster and the VM is staying on one machine |
 | Network  | NAT                   | The VM gets internet access but sits on its own private virtual network, not directly on my home network                                                                                               |
 
-
 The I/O controller and disk type screens were left on VMware's recommended defaults, since those are already matched to Windows 10.
 
 ![Final VM settings summary before creation](screenshots/01-vm-summary.png)
