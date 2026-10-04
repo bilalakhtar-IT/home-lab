@@ -2,7 +2,7 @@
 
 ## What I Built
 
-A Windows 10 virtual machine named Homelab, built in VMware Workstation using a school-provided Windows 10 Enterprise ISO. This is the foundation for the next two phases of this lab, Configure and Secure, then Manage and Troubleshoot.
+A Windows 10 virtual machine built in VMware Workstation using a Windows 10 Enterprise ISO. This is the foundation for the next two phases of this lab, Configure and Secure, then Manage and Troubleshoot.
 
 ## Configuration Decisions
 
